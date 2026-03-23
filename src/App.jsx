@@ -1,4 +1,4 @@
-import "./App.css";
+import "./Index.css";
 import Card from "./components/Card.jsx";
 import Header from "./components/Header.jsx";
 import Hero from "./components/Hero.jsx";
