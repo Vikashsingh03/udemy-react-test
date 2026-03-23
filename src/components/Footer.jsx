@@ -3,9 +3,8 @@ function Footer() {
     <footer className="bg-gray-900 text-gray-300 py-10 mt-10">
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-8">
         
-        {/* Logo / About */}
         <div>
-          <h2 className="text-2xl font-bold text-white">MyApp</h2>
+          <h2 className="text-2xl font-bold text-gray-200">MyApp</h2>
           <p className="mt-3 text-sm">
             Building modern web apps with React & Tailwind. 
             Fast, clean and scalable UI 🚀
@@ -14,22 +13,22 @@ function Footer() {
 
         {/* Links */}
         <div>
-          <h3 className="text-lg font-semibold text-white mb-3">Quick Links</h3>
+          <h3 className="text-lg font-semibold text-gray-200 mb-3">Quick Links</h3>
           <ul className="space-y-2 text-sm">
-            <li className="hover:text-white cursor-pointer">Home</li>
-            <li className="hover:text-white cursor-pointer">About</li>
-            <li className="hover:text-white cursor-pointer">Projects</li>
-            <li className="hover:text-white cursor-pointer">Contact</li>
+            <li className="hover:text-gray-300 cursor-pointer">Home</li>
+            <li className="hover:text-gray-300 cursor-pointer">About</li>
+            <li className="hover:text-gray-300 cursor-pointer">Projects</li>
+            <li className="hover:text-gray-300 cursor-pointer">Contact</li>
           </ul>
         </div>
 
         {/* Social */}
         <div>
-          <h3 className="text-lg font-semibold text-white mb-3">Follow Me</h3>
+          <h3 className="text-lg font-semibold text-gray-200 mb-3">Follow Me</h3>
           <div className="flex gap-4 text-sm">
-            <span className="hover:text-white cursor-pointer">GitHub</span>
-            <span className="hover:text-white cursor-pointer">LinkedIn</span>
-            <span className="hover:text-white cursor-pointer">Twitter</span>
+            <span className="hover:text-gray-300 cursor-pointer">GitHub</span>
+            <span className="hover:text-gray-300 cursor-pointer">LinkedIn</span>
+            <span className="hover:text-gray-300 cursor-pointer">Twitter</span>
           </div>
         </div>
 
